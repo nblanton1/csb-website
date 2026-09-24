@@ -16,7 +16,7 @@ body{
   margin:0;
   background:var(--bg);
   color:var(--ink);
-  font-family:"DM Sans",Arial,sans-serif;
+  font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
   -webkit-font-smoothing:antialiased;
 }
 a{color:inherit;text-decoration:none}
@@ -36,10 +36,10 @@ p{margin:0}
   backdrop-filter:blur(14px);
 }
 .brand{
-  font-family:"Tinos","Times New Roman",serif;
+  font-family:"Times New Roman",Times,serif;
   font-size:20px;
   font-weight:400;
-  letter-spacing:-.01em;
+  letter-spacing:-.02em;
   color:#1d1d1f;
 }
 nav{display:flex;gap:28px;font-size:13px}
@@ -56,11 +56,11 @@ nav a:hover{color:#111}
   padding-bottom:90px;
 }
 .hero-name{
-  font-family:"Tinos","Times New Roman",serif;
-  font-size:clamp(54px,6.2vw,102px);
+  font-family:"Times New Roman",Times,serif;
+  font-size:clamp(48px,5vw,82px);
   font-weight:400;
-  line-height:.94;
-  letter-spacing:-.028em;
+  line-height:.96;
+  letter-spacing:-.035em;
   color:#1d1d1f;
   max-width:720px;
   text-rendering:optimizeLegibility;
@@ -73,7 +73,7 @@ nav a:hover{color:#111}
 }
 .kicker{color:var(--muted);margin-bottom:18px}
 .hero h1,.section h2,.contact h2{
-  font-family:"Tinos","Times New Roman",serif;
+  font-family:"Times New Roman",Times,serif;
   font-weight:400;
   letter-spacing:-.045em;
   line-height:.98;
@@ -132,7 +132,7 @@ nav a:hover{color:#111}
   letter-spacing:.08em;
 }
 .capability p{
-  font-family:"Tinos","Times New Roman",serif;
+  font-family:"Times New Roman",Times,serif;
   font-size:27px;
   letter-spacing:-.02em;
 }
@@ -161,7 +161,7 @@ nav a:hover{color:#111}
   padding-top:20px;
 }
 .approach-list h3{
-  font-family:"Tinos","Times New Roman",serif;
+  font-family:"Times New Roman",Times,serif;
   font-size:27px;
   font-weight:400;
   margin:0 0 12px;
@@ -197,7 +197,7 @@ nav a:hover{color:#111}
 }
 .team-grid h3{
   margin:0;
-  font-family:"Tinos","Times New Roman",serif;
+  font-family:"Times New Roman",Times,serif;
   font-size:34px;
   font-weight:400;
   letter-spacing:-.03em;
@@ -258,11 +258,11 @@ nav a:hover{color:#111}
   nav{display:none}
   .hero{padding-top:68px;padding-bottom:72px}
   .hero-name{
-  font-family:"Tinos","Times New Roman",serif;
-  font-size:clamp(54px,6.2vw,102px);
+  font-family:"Times New Roman",Times,serif;
+  font-size:clamp(48px,5vw,82px);
   font-weight:400;
-  line-height:.94;
-  letter-spacing:-.028em;
+  line-height:.96;
+  letter-spacing:-.035em;
   color:#1d1d1f;
   max-width:720px;
   text-rendering:optimizeLegibility;
